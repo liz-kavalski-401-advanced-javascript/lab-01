@@ -1,5 +1,7 @@
 # LAB: Node Ecosystem
 
+[![Build Status](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-01)
+
 ## Before You Begin
 
 * Create a new git repository
