@@ -1,4 +1,4 @@
 'use strict';
 
-let greet = module.exports = {}
+// let greet = module.exports = {}
 
