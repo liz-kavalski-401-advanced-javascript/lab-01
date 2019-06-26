@@ -9,3 +9,6 @@ console.log(math.add(1,'fish')); //null
 console.log(math.subtract(1,3)); // -2
 console.log(math.subtract('fish',3)); // null
 console.log(math.subtract(1,'fish')); // null
+console.log(math.mulitbly(1,3)); // 3
+console.log(math.mulitbly('fish',3)); // null
+console.log(math.mulitbly(1,'fish'));//null
