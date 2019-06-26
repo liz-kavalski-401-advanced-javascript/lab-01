@@ -13,7 +13,7 @@ arithmetic.subtract = function (a,b) {
 };
 
 arithmetic.mulitbly = function(a,b) {
-  if ( typeof a !== "number" || typeof b !== "number"){return null;}
+  if ( typeof a !== 'number' || typeof b !== 'number'){return null;}
   return a*b;
 };
 
