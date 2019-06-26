@@ -31,7 +31,18 @@ describe('subtract module', () =>{
         let answer= num1-num2;
     expect(results).toEqual(answer);
     })
+    it('if "a" is not a number',()=>{
+        let notnum1 = null;
+        let results = arithmetic.subtract(notnum1,'b');
+    expect(results).toEqual(notnum1);
+    });
+    it('if "b" is not a number',() =>{
+        let notnum2 =null;
+        let results= arithmetic.subtract('a',notnum2);
+    expect(results).toEqual(notnum2);
+    })
 })
+
 
 
 
