@@ -12,3 +12,7 @@ console.log(math.subtract(1,'fish')); // null
 console.log(math.mulitbly(1,3)); // 3
 console.log(math.mulitbly('fish',3)); // null
 console.log(math.mulitbly(1,'fish'));//null
+console.log(math.divide(3,6));//.5
+console.log(math.divide('fish',6));//null
+console.log(math.divide(3,'fish'));//null
+console.log(math.divide(3,0));//Please pick a number other than zero

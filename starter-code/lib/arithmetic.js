@@ -17,9 +17,9 @@ arithmetic.mulitbly = function(a,b) {
   return a*b;
 };
 
-// arithmetic.divide = function(a,b) {
-//   if (typeof a !== "number" || typeof b !== "number"){return null;}
-//   if ( b <= 0){return "Please pick a number greater then zero";}
-//   return a/b
-// };
+arithmetic.divide = function(a,b) {
+  if (typeof a !== 'number' || typeof b !== 'number'){return null;}
+  if ( b === 0){return 'Please pick a number other then zero';}
+  return a/b
+};
 
