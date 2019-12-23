@@ -2,9 +2,13 @@
 
 let arithmetic = module.exports = {};
 
-arithmetic.add = function(a,b) {
-  if( typeof a !== 'number' || typeof b !== 'number' ) { return null; }
-  return a+b;
+function validArg(){
+  return true;
+}
+
+arithmetic.add = function(...numbers) {
+  //if( typeof acc !== 'number' || typeof val !== 'number' ) { return null; }
+  return validArg(numbers) ? numbers.reduce( (sum,val) => sum + val,0) : null;
 };
 
 arithmetic.subtract = function (a,b) {
