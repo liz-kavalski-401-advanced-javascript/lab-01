@@ -13,13 +13,17 @@ describe('add module', () =>{
   });
   it('if "a" is not a number',()=>{
     let notnum1 = null;
-    let results = arithmetic.add(notnum1,'b');
-    expect(results).toEqual(notnum1);
+    let num2 = faker.random.number()
+    let results = arithmetic.add(notnum1,num2);
+    let answer= notnum1+num2;
+    expect(results).toEqual(answer);
   });
   it('if "b" is not a number',() =>{
     let notnum2 =null;
-    let results= arithmetic.add('a',notnum2);
-    expect(results).toEqual(notnum2);
+    let num1 = faker.random.number()
+    let results= arithmetic.add(num1,notnum2);
+    let answer = num1 + notnum2
+    expect(results).toEqual(answer);
   });
 });
 
