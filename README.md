@@ -1,5 +1,6 @@
 # LAB 1 - Using Tests
 [![Build Status](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-01.svg?branch=master)](https://travis-ci.com/liz-kavalski-401-advanced-javascript/lab-01)
+
 ### Author: Liz Kavalski
 
 ### Links and Resources
