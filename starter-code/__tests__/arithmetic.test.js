@@ -16,7 +16,7 @@ describe('add module', () =>{
     let num2 = faker.random.number()
     let results = arithmetic.add(notnum1,num2);
     let answer= notnum1+num2;
-    expect(results).toEqual(answer);
+    expect(results).toBe(answer);
   });
   it('if "b" is not a number',() =>{
     let notnum2 =null;
