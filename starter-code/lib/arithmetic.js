@@ -7,7 +7,7 @@ function validArg(){
 }
 
 arithmetic.add = function(...numbers) {
-  //if( typeof acc !== 'number' || typeof val !== 'number' ) { return null; }
+ // if( typeof acc !== 'number' || typeof val !== 'number' ) { return null; }
   return validArg(numbers) ? numbers.reduce( (sum,val) => sum + val,0) : null;
 };
 
